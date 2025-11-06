@@ -13,3 +13,25 @@
   gap:var(--base-unit);
   text-align: center;
 }
+.feature_list {
+  display: flex;
+  gap:27px;
+}
+.feature_list li{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap:27px;
+  text-align: center;
+}
+.feature_list .icon{
+  width: 108px;
+  height: 108px;
+  border:1px solid #439CCF;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #439CCF;
+  font-size: 36px;
+}
