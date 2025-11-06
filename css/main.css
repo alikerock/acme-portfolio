@@ -36,6 +36,7 @@
   font-size: 36px;
 }
 .testimonial .wrapper{
+  position: relative;
   overflow:hidden;
 }
 .testimonial_list{
@@ -55,8 +56,23 @@
   font-weight:300px;
   font-style:italic;
   width: 55%;
-  margin:0 auto;
+  margin:0 auto 27px;
 }
 .testimonial_list li small{
   color: #489dcd;
+}
+.testimonial button{
+  position: absolute;
+  color: var(--light-gray);
+  top:50%;
+  transform:translateY(-50%);
+}
+.testimonial button span{
+  font-size: 45px;
+}
+.testimonial button.prev{
+  left: 0;
+}
+.testimonial button.next{
+  right: 0;
 }
