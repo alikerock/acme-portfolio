@@ -147,4 +147,10 @@ header{
   padding: var(--base-unit) 0;
   box-shadow:0 1px 5px rgba(0,0,0,0.15);
 }
-
+.logo a{
+  display: block;
+  width: 161px;
+  height: 54px;
+  background:url('../images/logo.png') no-repeat;
+  text-indent:-99999em;
+}
