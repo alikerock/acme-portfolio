@@ -35,3 +35,28 @@
   color: #439CCF;
   font-size: 36px;
 }
+.testimonial .wrapper{
+  overflow:hidden;
+}
+.testimonial_list{
+  transition: 0.5s;
+  width: calc(var(--container) * 3);
+  display: flex;
+}
+.testimonial_list li{
+  text-align: center;
+  width: 100%;
+}
+
+.testimonial_list li p{
+  font-size: 24px;
+  line-height: 36px;
+  color: #489dcd;
+  font-weight:300px;
+  font-style:italic;
+  width: 55%;
+  margin:0 auto;
+}
+.testimonial_list li small{
+  color: #489dcd;
+}
