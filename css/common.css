@@ -38,11 +38,11 @@
   padding-top: calc(var(--base-unit) * 3);
 }
 .hidden{
-  position: absolute;
-  left: 0;
-  top:-99999em;
-  width: 0;
-  height: 0;
+  position: absolute;  
+  clip-path:inset(50%);
+  width: 1;
+  height: 1;
+  margin:-1px;
   overflow: hidden;
 }
 
