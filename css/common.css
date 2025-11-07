@@ -225,3 +225,18 @@ header nav ul li:first-child a{
   text-align: center;
   width: 100%;
 }
+.wrapper button{
+  position: absolute;
+  color: var(--light-gray);
+  top:50%;
+  transform:translateY(-50%);
+}
+.wrapper button span{
+  font-size: 45px;
+}
+.wrapper button.prev{
+  left: 0;
+}
+.wrapper button.next{
+  right: 0;
+}
