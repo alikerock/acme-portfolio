@@ -35,19 +35,6 @@
   color: #439CCF;
   font-size: 36px;
 }
-.testimonial .wrapper{
-  position: relative;
-  overflow:hidden;
-}
-.testimonial_list{
-  transition: 0.5s;
-  width: calc(var(--container) * 3);
-  display: flex;
-}
-.testimonial_list li{
-  text-align: center;
-  width: 100%;
-}
 
 .testimonial_list li p{
   font-size: 24px;
