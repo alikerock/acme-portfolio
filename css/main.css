@@ -2,10 +2,7 @@
   color:var(--white);
 }
 
-.feature_list {
-  display: flex;
-  gap:27px;
-}
+
 .feature_list li{
   display: flex;
   flex-direction:column;
