@@ -210,3 +210,18 @@ header nav ul li:first-child a{
   align-items:center;
   gap:27px;
 }
+
+/* SLIDESHOW */
+.wrapper{
+  position: relative;
+  overflow:hidden;
+}
+.slide_container{
+  transition: 0.5s;
+  width: calc(var(--container) * 3);
+  display: flex;
+}
+.slide_container li{
+  text-align: center;
+  width: 100%;
+}
